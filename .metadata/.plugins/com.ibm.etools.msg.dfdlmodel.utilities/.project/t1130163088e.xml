@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="ExampleFileInputDelimited">
-  <XSDCollection href="platform:/resource/ExampleFileInputDelimited/RecordFile.xsd" prefix="" targetNamespace="">
-    <element href="platform:/resource/ExampleFileInputDelimited/RecordFile.xsd#//Message;XSDElementDeclaration" name="Message"/>
-  </XSDCollection>
-</MessageBroker>

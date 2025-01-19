@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="ExampleFileInputParsedRecordSequence">
-  <XSDCollection href="platform:/resource/ExampleFileInputParsedRecordSequence/RecordFile.xsd" prefix="" targetNamespace="">
-    <element href="platform:/resource/ExampleFileInputParsedRecordSequence/RecordFile.xsd#//Message;XSDElementDeclaration" name="Message"/>
-  </XSDCollection>
-</MessageBroker>

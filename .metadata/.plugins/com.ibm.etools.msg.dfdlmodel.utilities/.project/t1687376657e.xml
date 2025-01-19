@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="RESTAsyncRequest_SharedLibrary">
-  <XSDCollection href="platform:/resource/RESTAsyncRequest_SharedLibrary/UserData.xsd" prefix="" targetNamespace="">
-    <element href="platform:/resource/RESTAsyncRequest_SharedLibrary/UserData.xsd#//User;XSDElementDeclaration" name="User" type="mlib://RESTAsyncRequest_SharedLibrary#/-/complexType{}User"/>
-    <complexType baseType="mlib://RESTAsyncRequest_SharedLibrary#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/RESTAsyncRequest_SharedLibrary/UserData.xsd#//User;XSDComplexTypeDefinition" name="User"/>
-  </XSDCollection>
-</MessageBroker>

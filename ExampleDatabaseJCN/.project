@@ -3,6 +3,7 @@
 	<name>ExampleDatabaseJCN</name>
 	<comment></comment>
 	<projects>
+		<project>ACECommonLib</project>
 		<project>ExampleDatabaseJCNJava</project>
 	</projects>
 	<buildSpec>

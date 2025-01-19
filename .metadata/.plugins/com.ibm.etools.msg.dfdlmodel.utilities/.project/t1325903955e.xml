@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="AggregationMQBackend1">
-  <XSDCollection href="platform:/resource/AggregationMQBackend1/Backend1Schema.xsd" prefix="tns" targetNamespace="http://www.ibm.com/Example">
-    <element href="platform:/resource/AggregationMQBackend1/Backend1Schema.xsd#//BackendMessage1;XSDElementDeclaration" name="BackendMessage1" type="mlib://AggregationMQBackend1#/-/complexType{http://www.ibm.com/Example}BackendMessage1Type"/>
-    <complexType baseType="mlib://AggregationMQBackend1#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/AggregationMQBackend1/Backend1Schema.xsd#//BackendMessage1Type;XSDComplexTypeDefinition" name="BackendMessage1Type"/>
-  </XSDCollection>
-</MessageBroker>

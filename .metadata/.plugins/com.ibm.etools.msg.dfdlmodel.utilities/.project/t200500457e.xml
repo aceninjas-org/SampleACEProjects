@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="ExampleFileInputWholeFile">
-  <XSDCollection href="platform:/resource/ExampleFileInputWholeFile/FileXML.xsd" prefix="tns" targetNamespace="http://www.ibm.com/ace/dev/FileXML">
-    <element href="platform:/resource/ExampleFileInputWholeFile/FileXML.xsd#//Message;XSDElementDeclaration" name="Message" type="mlib://ExampleFileInputWholeFile#/-/complexType{http://www.ibm.com/ace/dev/FileXML}MessageType"/>
-    <complexType baseType="mlib://ExampleFileInputWholeFile#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/ExampleFileInputWholeFile/FileXML.xsd#//MessageType;XSDComplexTypeDefinition" name="MessageType"/>
-  </XSDCollection>
-</MessageBroker>
