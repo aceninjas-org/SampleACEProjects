@@ -1,0 +1,9 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN		
+		SET OutputRoot.Properties = InputRoot.ComIbmAggregateReplyBody.Backend1.Properties;		
+		CREATE LASTCHILD OF OutputRoot DOMAIN('JSON');
+		SET OutputRoot.JSON.Data.ResponseBackend1 = InputRoot.ComIbmAggregateReplyBody.Backend1.JSON.Data.output1;
+		SET OutputRoot.JSON.Data.ResponseBackend2 = InputRoot.ComIbmAggregateReplyBody.Backend2.JSON.Data.output2;
+		RETURN TRUE;
+	END;
+

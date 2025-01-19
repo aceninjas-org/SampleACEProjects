@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="ExampleDatabaseInput">
+  <XSDCollection href="platform:/resource/ExampleDatabaseInput/users/myschema/Physical Data Model.xsd" prefix="usersmyschema" targetNamespace="http://users/myschema">
+    <element href="platform:/resource/ExampleDatabaseInput/users/myschema/Physical Data Model.xsd#//EMPLOYEES;XSDElementDeclaration" name="EMPLOYEES" type="mlib://ExampleDatabaseInput#/-/complexType{http://users/myschema}EMPLOYEESType"/>
+    <complexType baseType="mlib://ExampleDatabaseInput#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/ExampleDatabaseInput/users/myschema/Physical Data Model.xsd#//EMPLOYEESType;XSDComplexTypeDefinition" name="EMPLOYEESType"/>
+  </XSDCollection>
+</MessageBroker>

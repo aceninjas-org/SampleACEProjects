@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="AggregationMQ">
+  <XSDCollection href="platform:/resource/AggregationMQ/ExampleSchema.xsd" prefix="tns" targetNamespace="http://www.ibm.com/Example">
+    <element href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//OverallInputMessage;XSDElementDeclaration" name="OverallInputMessage" type="mlib://AggregationMQ#/-/complexType{http://www.ibm.com/Example}OverallInputMessageType"/>
+    <element href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//BackendMessage1;XSDElementDeclaration=1" name="BackendMessage1" type="mlib://AggregationMQ#/-/complexType{http://www.ibm.com/Example}BackendMessage1Type"/>
+    <element href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//BackendMessage2;XSDElementDeclaration=2" name="BackendMessage2" type="mlib://AggregationMQ#/-/complexType{http://www.ibm.com/Example}BackendMessage2Type"/>
+    <element href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//OverallOutputMessage;XSDElementDeclaration=3" name="OverallOutputMessage" type="mlib://AggregationMQ#/-/complexType{http://www.ibm.com/Example}OverallOutputMessageType"/>
+    <complexType baseType="mlib://AggregationMQ#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//OverallInputMessageType;XSDComplexTypeDefinition" name="OverallInputMessageType"/>
+    <complexType baseType="mlib://AggregationMQ#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//BackendMessage1Type;XSDComplexTypeDefinition=1" name="BackendMessage1Type"/>
+    <complexType baseType="mlib://AggregationMQ#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//BackendMessage2Type;XSDComplexTypeDefinition=2" name="BackendMessage2Type"/>
+    <complexType baseType="mlib://AggregationMQ#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/AggregationMQ/ExampleSchema.xsd#//OverallOutputMessageType;XSDComplexTypeDefinition=3" name="OverallOutputMessageType"/>
+  </XSDCollection>
+</MessageBroker>
